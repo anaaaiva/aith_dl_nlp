@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "aith-dl-nlp"
+version = "0.1.0"
+description = ""
+authors = ["anaaaiva <ivawillow.a@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymystem3 = "^0.2.0"
+nltk = "^3.9.1"
+pandas = "^2.2.3"
+corus = "^0.10.0"
+scikit-learn = "^1.6.1"
+wget = "^3.2"
+optuna = "^4.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
